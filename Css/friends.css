@@ -1,0 +1,13 @@
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: aliceblue;
+  padding: 15px 0px;
+  cursor: pointer;
+  margin-top: -25px;
+  margin-bottom: 10px;
+}
+
+#friends-display-link {
+  color: pink;
+}
