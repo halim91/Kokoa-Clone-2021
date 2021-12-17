@@ -1,4 +1,6 @@
 :root {
   --yellow: #fae100;
   --facebook: #3b5998;
+  --horizontal-space: 25px;
+  --main-border: 2px solid pink;
 }
