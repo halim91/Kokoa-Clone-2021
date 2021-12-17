@@ -1,0 +1,65 @@
+.user-component {
+  justify-content: space-between;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+  color: pink;
+}
+
+.user-component__subtitle {
+  margin-top: 8px;
+  color: orange;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.user-component__text--mark {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.user-component__title--not-bold {
+  font-weight: 100;
+  color: black;
+}
+
+.user-component-icons-write {
+  margin-right: 20px;
+  color: gray;
+}
+
+.friends-screen__channel {
+  margin: 10px 10px;
+  border-top: 1px solid skyblue;
+}
+
+.friends-screen_channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: orange;
+}
+
+.user-component__control {
+  margin-right: 25px;
+}
