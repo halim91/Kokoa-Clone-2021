@@ -2,6 +2,9 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .status-bar__column {
@@ -16,6 +19,7 @@
   display: flex;
   justify-content: center;
   font-size: 17px;
+  font-weight: bolder;
 }
 
 .status-bar__column:last-child {
@@ -26,4 +30,13 @@
 
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
+}
+
+.status-bar__control > i,
+.status-bar__control > span {
+  margin: 0px 3px;
+}
+
+.status-bar__control > span {
+  margin-left: 6px;
 }
