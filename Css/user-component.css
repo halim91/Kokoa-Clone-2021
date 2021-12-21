@@ -63,3 +63,9 @@
 .user-component__control {
   margin-right: 25px;
 }
+
+.user-component__c1 i {
+  color: tomato;
+  font-weight: bold;
+  margin-left: 4px;
+}
