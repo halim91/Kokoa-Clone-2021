@@ -40,3 +40,7 @@
 .status-bar__control > span {
   margin-left: 6px;
 }
+
+.status-bar_s1 {
+  position: static;
+}
