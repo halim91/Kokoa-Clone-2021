@@ -13,6 +13,7 @@
 @import "more.css";
 @import "alt-screen-header.css";
 @import "settings.css";
+@import "chat.css";
 
 body {
   font-family: "Open Sans", sans-serif;
