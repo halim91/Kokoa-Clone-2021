@@ -31,6 +31,7 @@
   position: absolute;
   left: 25px;
   bottom: 18px;
+  animation: notificationAnimation 3s ease-in-out forwards;
 }
 
 .nav_c1 {
@@ -39,4 +40,18 @@
 
 .nav_c2 {
   position: static;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: translateY(-5px) rotateZ(180deg);
+  }
+
+  100% {
+    transform: none;
+  }
 }
