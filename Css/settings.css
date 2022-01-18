@@ -5,6 +5,7 @@
   opacity: 0.7;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .settings-setting i {
